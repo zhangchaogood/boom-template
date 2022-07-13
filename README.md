@@ -31,3 +31,9 @@ export PATH=$RISCV/bin:$PATH
 cd boom-template
 ./scripts/build-tools.sh
 ```
+### Compiling and running the Verilator simulation
+To compile a BOOM simulator, run ```make``` in the "verisim" directory. This will elaborate the BoomConfig from the boom.system project.
+```bash
+cd verisim
+make
+```
